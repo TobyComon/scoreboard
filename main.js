@@ -10,8 +10,8 @@ function team1Score(score) {
     drawScores()
 }
 
-function team2Score() {
-    team2++
+function team2Score(score) {
+    team2 += score
     console.log(team2)
     drawScores()
 }
